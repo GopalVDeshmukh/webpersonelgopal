@@ -1,0 +1,91 @@
+body{
+    background-color: black;
+    color: antiquewhite;
+}
+.Note{
+    text-align: center;
+}
+.box1{
+    position: relative;
+    top: 80px;
+    height: 450px;
+    width: 200px;
+    width: 60%;
+    margin: 0 auto 0 auto;
+    border-radius: 3%;
+    border-style: outset;
+    border-width: 7px;
+    border-color: rgba(255, 0, 170, 0.945);
+    background-color: white;
+    color: black;
+    padding-bottom: .5%;
+    background-image: url(/gopal.image1.jpg);
+    background-repeat: no-repeat;
+    background-position: right bottom;
+    padding-bottom: 2%;
+}
+.pi{
+    padding-left: 10%;
+    font-family: cursive;
+}
+marquee{
+    background-color: green;
+    direction: ltr; 
+}
+img{
+    width: 25%;
+    height: 25%;
+}
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+    background-color: rgb(235, 248, 252);
+}
+nav ul li{
+    list-style-position: inside;
+    display: inline-block;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+nav ul li a:hover{
+    color: #f10909;}
+    .logo{
+        min-height: 60px;
+    }
+    .CV{
+        background-color:rgb(248, 6, 175) ;
+        color: aliceblue;
+        border-radius: 50%;
+        list-style-position: inside;
+        font-weight: bold;
+    }
+    .CV a:hover{
+        color: green;
+    }
+    .fa-facebook {
+        padding-left: 15%;
+        background: white;
+        color: black;
+    }
+    .fa-instagram {
+        padding-left: 1%;
+        background: white
+        color: black;
+    }
+      .fa-linkedin {
+          padding-left: 1%;
+        background: white;
+        color: black;
+      }
+      .fa-twitter {
+          padding-left: 1%;
+        background: white;
+        color: black;
+      }
+      .fa-whatsapp {
+        padding-left: 1%;
+        background: white;
+        color: black;
+    }
